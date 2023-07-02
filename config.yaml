@@ -1,0 +1,13 @@
+model_dir: ./save_model/checkpoint-64500
+
+# Tokenizer setup 
+encoder_max_length: 256
+decoder_max_length: 64
+number_sentences_original: 30
+
+# Setting up decoder config
+max_length: 64
+early_stopping : True
+no_repeat_ngram_size : 3
+length_penalty : 2.0
+num_beams : 4
